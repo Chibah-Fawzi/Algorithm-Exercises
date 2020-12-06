@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-06 06:25:38 "/>
+        <attribute name="created" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDY7IjA0OjAyOjQ3ICI7MjM3OA=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDY7IjA0OjAzOjM1ICI7MTtQQztERVNLVE9QLTZPVURIMTg7MjAyMC0xMi0wMzsiMDk6MzI6MjkgIjtDaGFyYWN0ZXIgTnVtYmVyLmZwcmc7NzAyMA=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDY7IjA2OjI1OjM4ICI7MzsyNDk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sentence" type="String" array="False" size=""/>
+            <assign variable="sentence" expression="&quot;I got these goosebumps everytime yeah.&quot;"/>
+            <output expression="sentence.split(' ').length;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

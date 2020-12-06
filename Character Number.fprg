@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value="H"/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-03 10:39:45 "/>
+        <attribute name="created" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDM7IjA5OjMyOjI5ICI7MjM4Mw=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDM7IjEwOjM5OjQ1ICI7MzsyNDkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sentence" type="String" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="sentence" expression="&quot;I got these goosebumps everytime yeah.&quot;"/>
+            <assign variable="count" expression="0"/>
+            <for variable="i" start="0&#13;&#10;" end="Len(sentence)&#13;&#10;" direction="inc" step="1">
+                <if expression="sentence != &quot;&quot;">
+                    <then>
+                        <assign variable="count" expression="count+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="count" newline="True"/>
+        </body>
+    </function>
+    <function name="START" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

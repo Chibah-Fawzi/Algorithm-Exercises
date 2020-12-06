@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-06 06:23:59 "/>
+        <attribute name="created" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDY7IjA0OjAyOjQ3ICI7MjM3OA=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDY7IjA0OjAzOjM1ICI7MTtQQztERVNLVE9QLTZPVURIMTg7MjAyMC0xMi0wMzsiMDk6MzI6MjkgIjtDaGFyYWN0ZXIgTnVtYmVyLmZwcmc7NzAyMA=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC02T1VESDE4OzIwMjAtMTItMDY7IjA2OjIzOjU5ICI7MzsyNDk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sentence" type="String" array="False" size=""/>
+            <declare name="vow" type="String" array="False" size=""/>
+            <assign variable="vow" expression="sentence.match(/[aeiou]/gi)"/>
+            <assign variable="sentence" expression="&quot;I got these goosebumps everytime yeah.&quot;"/>
+            <if expression="vow === null">
+                <then>
+                    <output expression="0" newline="True"/>
+                </then>
+                <else>
+                    <output expression="vow.length" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
